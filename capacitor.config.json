@@ -1,0 +1,6 @@
+{
+  "appId": "com.corsarios.atlantico",
+  "appName": "Corsários do Atlântico",
+  "webDir": "dist",
+  "server": { "androidScheme": "https" }
+}
