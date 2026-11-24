@@ -29,3 +29,13 @@ npx cap add android
 npx cap sync android
 cd android && ./gradlew assembleDebug
 ```
+
+## Patentes e ranking global
+
+As dez patentes avançam conforme as eliminações acumuladas e ficam salvas no navegador. Para ativar o ranking compartilhado entre jogadores:
+
+1. Crie um projeto Supabase e execute [`supabase/leaderboard.sql`](supabase/leaderboard.sql) no SQL Editor.
+2. Copie a URL do projeto e a chave pública `anon` para `public/leaderboard-config.js`.
+3. Publique novamente no GitHub Pages. O jogo envia cada eliminação ao banco e lê a tabela global por kills.
+
+Sem essa configuração, o botão mostra as pontuações salvas apenas neste navegador.
