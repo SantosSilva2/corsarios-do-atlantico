@@ -1,13 +1,13 @@
-# Corsários do Atlântico
+# PIRATAS DO OCEANO 3D
 
 Jogo de batalha naval em 3D feito com Three.js e empacotado para Android com Capacitor.
 
 ## Jogar
 
 - No computador, abra o menu, escolha ou compre um navio e dê um nome à embarcação.
-- Use **WASD** para navegar, **Espaço** para disparar e **Q** para ativar a habilidade.
-- No celular, use o direcional na tela, o botão de disparo e o botão de habilidade.
-- Pegue kits médicos e melhorias temporárias nas ilhas. Os dez melhores colocados recebem moedas.
+- Use **WASD** para navegar, **Espaço** para canhão, segure **F** para uma rajada e **Q** para a habilidade. Use **E** perto de um baú.
+- No celular, arraste o joystick à direita e use os botões de combate à esquerda.
+- Pegue kits médicos e melhorias temporárias nas ilhas. Os dez melhores colocados recebem moedas. As partidas têm até 15 participantes, com bots quando não há jogadores online.
 
 ## APK Android
 
